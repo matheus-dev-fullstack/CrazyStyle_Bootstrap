@@ -1,0 +1,57 @@
+
+.navbar {
+    background-color: #3dd1eb;
+}
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #3dd1eb;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: white;
+}
+.text-colored {
+    color: #3dd1eb;
+}
+#sobre-a-loja,
+#produtos {
+    background-color: #6fcfe02d;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: #3dd1eb;
+    color: white;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+
+#eventos img {
+    height: 300px;
+}
+#calcado-social {
+    transform: scaleX(-1);
+}
+.price strong {
+    font-size: 23px;
+    align-content: center;
+}
+.btn {
+    background-color: rgb(82, 209, 23);
+    border: none;
+    
+}
+.btn:hover {
+    background-color:rgb(57, 148, 14);
+}
+.tamanhos {
+    font-style: italic;
+}

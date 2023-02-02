@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRAZY Style</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">CRAZY Style</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="eventos">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-compass me-1"></i>
+                            Coleções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-bag-check me-1"></i>
+                            Produtos em destaque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-dots me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/carousel/Meu projeto (4).jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/carousel/slide1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/carousel/Meu projeto (5).jpg" alt="">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="./imagens/img-loja.jpg" class="d-block w-100 rounded" alt="Imagem Loja">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectia magni distinctio asperiores tenetur et, laudantium deleniti minus debitis officiis porro, unde commodi inventore? Cum asperiores praesentium autem impedit!
+                                </p>
+
+                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <p>Lorem ipsum, dolor sit ameimus vitae facere laboriosam aut ad dignissimos magnam incidunt, assumenda error. Distinctio.</p>
+                                <ul>
+                                    <li>item 1</li>
+                                    <li>item 1</li>
+                                    <li>item 1</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Pronto para <span class="text-colored">todas as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/ocasiao/trabalho.jpg" alt="img" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-bar-chart-fill"></i>
+                            Social
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero a nisi cum magni, cumque corrupti officiis distinctio nesciunt. Qui, repellat! Tempora quos numquam iste debitis! Beatae minus quas repudiandae!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/ocasiao/casual.jpg" alt="img" class="d-block w-100  rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-buildings-fill"></i>
+                            Casual
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero a nisi cum magni, cumque corrupti officiis distinctio nesciunt. Qui, repellat! Tempora quos numquam iste debitis! Beatae minus quas repudiandae!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/ocasiao/correndo.jpeg" alt="img" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-dribbble"></i>
+                            Esportivo
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero a nisi cum magni, cumque corrupti officiis distinctio nesciunt. Qui, repellat! Tempora quos numquam iste debitis! Beatae minus quas repudiandae!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Peças <span class="text-colored">em Destaque</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#calcados" class="fw-bold texte-start nav-link text-colored active">Calçados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camisetas" class="fw-bold texte-start nav-link text-colored">Camisetas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#calcas" class="fw-bold texte-start nav-link text-colored">Calças</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold texte-start nav-link text-colored">Acessórios</button>
+
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="calcados">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcadoEsportivo.jpeg" alt="Tênis Adidas" />
+                                        <h5 class="text-colored fw-bold mt-2">Tênis Esportivo</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos <span class="tamanhos">38, 39,40 e 41</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcadoCasual.jpeg" alt="Suco de laranja" />
+                                        <h5 class="text-colored fw-bold mt-2">Tênis Casual</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos <span class="tamanhos">38, 39,40 e 41</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img id="calcado-social" class="d-block w-100" src="./imagens/produtos/calcadoSocial.jpeg" alt="Suco de laranja" />
+                                        <h5 class="text-colored fw-bold mt-2">Sapato Social</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos <span class="tamanhos">38, 39,40 e 41</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcadoEsportivo2.jpeg" alt="Tênis Adidas" />
+                                        <h5 class="text-colored fw-bold mt-2">Tênis esportivo</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos <span class="tamanhos">38, 39,40 e 41</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcadoCasual2.jpeg" alt="Suco de laranja" />
+                                        <h5 class="text-colored fw-bold mt-2">Tênis casual</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos <span class="tamanhos">38, 39,40 e 41</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img id="calcado-social" class="d-block w-100" src="./imagens/produtos/calcadoSocial2.jpg" alt="Suco de laranja" />
+                                        <h5 class="text-colored fw-bold mt-2">Sapato Social</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos <span class="tamanhos">38, 39,40 e 41</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                            <div class="tab-pane" id="camisetas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/camisetaCasual.jpg" alt="Vinho" />
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Casual</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/camisetaSocial.jpeg" alt="Cerveja" />
+                                        <h5 class="text-colored fw-bold mt-2">Camisa Social</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/camisetaEsportiva.jpg" alt="Cerveja" />
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Esportiva</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/camisetaCasual2.jpeg" alt="Vinho" />
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Casual</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/camisetaEsportiva2.jpg" alt="Cerveja" />
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Esportiva</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/camisetaCasual3.jpg" alt="Cerveja" />
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Casual</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="tab-pane" id="calcas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcaJogger.jpeg" alt="Nome da entrada" />
+                                        <h5 class="text-colored fw-bold mt-2">Calca Casual</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcaCustomizada.jpeg" alt="Nome da entrada" />
+                                        <h5 class="text-colored fw-bold mt-2">Calça Customizada</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcaSocial.jpeg" alt="Nome da entrada" />
+                                        <h5 class="text-colored fw-bold mt-2">Calça Social</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcaEsportiva2.jpeg" alt="Nome da entrada" />
+                                        <h5 class="text-colored fw-bold mt-2">Calça Esportiva</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div> 
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/calcaCustom2.jpeg" alt="Nome da entrada" />
+                                        <h5 class="text-colored fw-bold mt-2">Calca Custom</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img id="calcado-social" class="d-block w-100" src="./imagens/produtos/calcaCasual2.jpg" alt="Nome da entrada" />
+                                        <h5 class="text-colored fw-bold mt-2">Calca Casual</h5>
+                                        <p class="pb-0 text-center">
+                                            Modelo disponível nos tamanhos  <span class="tamanhos"><br> P, M, G e GG</span> 
+                                        </p>
+
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="tab-pane" id="acessorios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/acessorioPulseira.jpeg" alt="`Pizza" />
+                                        <h5 class="text-colored fw-bold mt-2">Pulseira de couro</h5>
+                                        <p class="text-center">
+                                            Ítem disponível também nas cores <br> <span class="tamanhos">Preto, Cinza, Marrom e Branco </span>
+                                        </p>
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/aceBone.jpg" alt="`Pizza" />
+                                        <h5 class="text-colored fw-bold mt-2">Boné NY</h5>
+                                        <p class="text-center">
+                                            Ítem disponível também nas cores <br> <span class="tamanhos">Preto, Cinza, Marrom e Branco </span>
+                                        </p>
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/aceBag.jpg" alt="`Pizza" />
+                                        <h5 class="text-colored fw-bold mt-2">Shoulder Bag Nike</h5>
+                                        <p class="text-center">
+                                            Ítem disponível também nas cores <br> <span class="tamanhos">Preto, Cinza, Marrom e Branco </span>
+                                        </p>
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/aceLente.jpeg" alt="`Pizza" />
+                                        <h5 class="text-colored fw-bold mt-2">Óculos de sól</h5>
+                                        <p class="text-center">
+                                            Ítem disponível também nas cores <br> <span class="tamanhos">Preto, Cinza, Marrom e Branco </span>
+                                        </p>
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/aceChapeu.jpeg" alt="`Pizza" />
+                                        <h5 class="text-colored fw-bold mt-2">Chapéu preto</h5>
+                                        <p class="text-center">
+                                            Ítem disponível também nas cores <br> <span class="tamanhos">Preto, Cinza, Marrom e Branco </span>
+                                        </p>
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  class="d-block w-100" src="./imagens/produtos/aceBag2.jpeg" alt="`Pizza" />
+                                        <h5 class="text-colored fw-bold mt-2">Shoulder Bag de couro</h5>
+                                        <p class="text-center">
+                                            Ítem disponível também nas cores <br> <span class="tamanhos">Preto, Cinza, Marrom e Branco </span>
+                                        </p>
+                                        <button class="btn btn-success w-100 mb-4 fw-bold">Adicionar ao carrinho</button>
+                                    </div>
+                                    
+                                    
+                                </div>                               
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua dos Pinheiros, n 145, Bairro Jacarandá - Torres - SC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
