@@ -37,24 +37,27 @@
 #eventos img {
     height: 300px;
 }
-#calcado-social {
-    transform: scaleX(-1);
-}
+
 .price strong {
     font-size: 23px;
     align-content: center;
 }
 .btn {
-    background-color: rgb(82, 209, 23);
+    background-color: rgb(24, 232, 52);
     border: none;
     
 }
 .btn:hover {
-    background-color:rgb(57, 148, 14);
+    background-color:rgb(25, 181, 46);
     transition: all ease 0.3s;
     transform: scale(1.01);
 }
 .tamanhos {
     font-style: italic;
+}
+
+#produtos img:hover {
+    transition: all ease 0.7s;
+    transform: scale(1.3);
 }
 
