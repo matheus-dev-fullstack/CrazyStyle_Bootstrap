@@ -56,6 +56,10 @@
     font-style: italic;
 }
 
+#produtos img {
+    border-radius: 9%;
+}
+
 #produtos img:hover {
     transition: all ease 0.7s;
     transform: scale(1.1);
