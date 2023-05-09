@@ -1,6 +1,11 @@
 
+
 .navbar {
     background-color: #3dd1eb;
+}
+
+.navbar h1 {
+    font-size: 25px;
 }
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
@@ -35,7 +40,7 @@
 }
 
 #eventos img {
-    height: 300px;
+    height: 400px;
 }
 
 .price strong {
@@ -53,7 +58,9 @@
     transform: scale(1.01);
 }
 .tamanhos {
-    font-style: italic;
+    /* font-style: italic; */
+    font-weight: bold;
+    /* padding-left: 15%; */
 }
 
 #produtos img {
@@ -61,7 +68,7 @@
 }
 
 #produtos img:hover {
-    transition: all ease 0.7s;
-    transform: scale(1.1);
+    transition: all ease 0.5s;
+    transform: scale(1.04);
 }
 
