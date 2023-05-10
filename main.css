@@ -68,7 +68,7 @@
 }
 
 #produtos img:hover {
-    transition: all ease 0.5s;
-    transform: scale(1.04);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.06);
 }
 
